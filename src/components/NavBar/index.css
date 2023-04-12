@@ -1,0 +1,62 @@
+/* Write your code here. */
+.navbar-container {
+  background-color: #ffffff33;
+  height: 13vh;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo-name-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.emoji-logo {
+  width: 30px;
+  height: 30px;
+}
+.logo-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.scores-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.scores {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .emoji-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .logo-name {
+    font-size: 20px;
+  }
+  .logo-name-container {
+    flex-grow: 1;
+  }
+  .scores-card-container {
+    flex-grow: 0;
+  }
+  .scores {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}

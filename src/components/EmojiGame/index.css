@@ -1,0 +1,40 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.main-bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.banner-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.emojis-main-list-container {
+  list-style-type: none;
+  padding: 0px;
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .emojis-main-list-container {
+    width: 60%;
+  }
+  .banner-bg-container {
+    justify-content: flex-start;
+    padding-top: 60px;
+    min-height: 100vh;
+  }
+}

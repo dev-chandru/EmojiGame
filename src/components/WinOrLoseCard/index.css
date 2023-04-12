@@ -1,0 +1,92 @@
+/* Write your code here. */
+.win-lose-bg-container {
+  width: 80%;
+  border: 3px solid #ffffff30;
+  background-color: #ffffff33;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.win-lose-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.win-lose-image {
+  width: 120px;
+}
+.win-lose-main-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.win-lose-main-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.scores-para {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #6a59ff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.play-again-button {
+  border: none;
+  border-radius: 12px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  color: #3d3d3d;
+  background-color: #ffce27;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-lose-bg-container {
+    max-width: 50%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .win-lose-image {
+    width: 250px;
+  }
+  .win-lose-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    order: 1;
+  }
+  .win-lose-card-container {
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+  .win-lose-main-heading {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+  .win-lose-main-para {
+    font-size: 25px;
+  }
+  .scores-para {
+    font-size: 35px;
+    margin-bottom: 8px;
+  }
+}
